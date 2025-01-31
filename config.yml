@@ -12,18 +12,23 @@ menu:
     main:
         - name: Projects
           url: projects/
-          weight: 5 
+          weight: 2 
         - name: Papers
           url: papers/
-          weight: 2
+          weight: 1
         - name: Blog
           url: blog/
-          weight: 6
-
+          weight: 3
+        - name: Tags
+          url: tags/
+          weight: 4
+        - name: Archive
+          url: archive/
+          weight: 5
 params:
     description: "Hi! I am a PhD student in Game Design at Aalborg university in Copenhagen. I am currently setting up this page."
     author: Jonathan Skjøtt
-    # googleAnalyticsID: "G-XXXXX"
+    googleAnalyticsID: "G-0E5PL654PM"
     DateFormat: "January 2006"
     defaultTheme: light
     hideFooter: false

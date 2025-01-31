@@ -2,7 +2,7 @@
 title: "Spreadsheets as Notational Environment for Paper Weaving" 
 date: 2020-03-23
 lastmod: 2025-01-31
-tags: ["paper weaving","programming"]
+tags: ["Paper weaving","Programming","Spreadsheets"]
 author: ["Jonathan Skjøtt"]
 description: "This work explores how spreadsheets can serve as the foundation for the creation of a hybrid design medium for paper weaving." 
 summary: "TThis work explores how spreadsheets can serve as the foundation for the creation of a hybrid design medium for paper weaving." 
