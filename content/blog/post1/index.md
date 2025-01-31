@@ -29,6 +29,6 @@ My only issue with using a 2d texture is that it allows for only very little dat
 
 ## 3. Enough data can be stored to produce a scriptable object describing a level made of hexagons
 
-Using an online spreadsheet like Google sheets and building scriptable object in Unity([like shown here](https://medium.com/@xavidevsama/how-to-create-a-simple-backend-with-google-sheets-and-unity-the-easiest-solution-for-small-ef8a6de1bcd0)) give team members access to a colaborative level editor and does not burden me as the programmer with the task of making a level editor in-house. Pew, nice.
+Using an online spreadsheet like Google sheets and building scriptable object in Unity([like shown here](https://medium.com/@xavidevsama/how-to-create-a-simple-backend-with-google-sheets-and-unity-the-easiest-solution-for-small-ef8a6de1bcd0)) give team members access to a colaborative level editor and does not burden me as the programmer with the task of making a level editor in-house. Pew, nice. 
 
 ![](post1.png)
