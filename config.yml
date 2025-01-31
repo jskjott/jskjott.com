@@ -57,10 +57,10 @@ params:
           imageWidth: 160
           imageHeight: 160
           buttons:
-            - name: Projects
-              url: projects/
             - name: Papers
               url: papers/
+            - name: Projects
+              url: projects/
             - name: Blog
               url: blog/
             - name: Tags
