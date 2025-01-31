@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Using spreadsheets as a level editor for games using hexagons | Jonathan Skjøtt</title>
+<meta name="keywords" content="Unity, Spreadsheets">
+<meta name="description" content="A little blog post about using spreadsheets for level design in games using hexagons">
+<meta name="author" content="Jonathan Skjøtt">
+<link rel="canonical" href="http://localhost:1313/blog/post1/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b32d30de254a7dad73dbafcd1af9c42c8111a35f99d1a35d8891ae0fc3dd9c22.css" integrity="sha256-sy0w3iVKfa1z26/NGvnELIERo1&#43;Z0aNdiJGuD8PdnCI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/post1/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Using spreadsheets as a level editor for games using hexagons" />
+<meta property="og:description" content="A little blog post about using spreadsheets for level design in games using hexagons" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/blog/post1/" />
+<meta property="og:image" content="http://localhost:1313/post1.png" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2025-01-31T00:00:00+00:00" />
+<meta property="article:modified_time" content="2025-01-31T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:image" content="http://localhost:1313/post1.png" />
+<meta name="twitter:title" content="Using spreadsheets as a level editor for games using hexagons"/>
+<meta name="twitter:description" content="A little blog post about using spreadsheets for level design in games using hexagons"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "http://localhost:1313/blog/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Using spreadsheets as a level editor for games using hexagons",
+      "item": "http://localhost:1313/blog/post1/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Using spreadsheets as a level editor for games using hexagons",
+  "name": "Using spreadsheets as a level editor for games using hexagons",
+  "description": "A little blog post about using spreadsheets for level design in games using hexagons",
+  "keywords": [
+    "Unity", "Spreadsheets"
+  ],
+  "articleBody": "Introduction I have spent a lot of time of time thinking about how to make a simple and flexible level editor for the strategy game I am making. One aspect of this which I had a hard time getting my head around was how to design a level editor for a game where hexagons make up the level. That is untill I had, it is fair to say, a bit of a revelation:\n1. It is possible to represent hexagonal maps with a 2d grid Evgeniya Glazycheva has this great blog post describing how they generated their hexagonal levels based on a 2d texture of a colored grid. Assuming a vertical hexagonal orientation it is pretty simple to take data from the 2d texture and use it to generate a level.\n2. Spreadsheets store data in a grid and can transmit more data than a 2d texture My only issue with using a 2d texture is that it allows for only very little data to be stored and transfered for each hexagon. The solution to this, which I am stoked about coming up with haha!, is to use a spreadsheet grid instead of a grid drawn on a texture.\n3. Enough data can be stored to produce a scriptable object describing a level made of hexagons Using an online spreadsheet like Google sheets and building scriptable object in Unity(like shown here) give team members access to a colaborative level editor and does not burden me as the programmer with the task of making a level editor in-house. Pew, nice.\n",
+  "wordCount" : "259",
+  "inLanguage": "en",
+  "image":"http://localhost:1313/post1.png","datePublished": "2025-01-31T00:00:00Z",
+  "dateModified": "2025-01-31T00:00:00Z",
+  "author":{
+    "@type": "Person",
+    "name": "Jonathan Skjøtt"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/blog/post1/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Jonathan Skjøtt",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+  onload="renderMathInElement(document.body);"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          delimiters: [
+            {left: '$$', right: '$$', display: true},
+            {left: '$', right: '$', display: false},
+            {left: "\\begin{equation}", right: "\\end{equation}", display: true},
+            {left: "\\begin{equation*}", right: "\\end{equation*}", display: true},
+            {left: "\\begin{align}", right: "\\end{align}", display: true},
+            {left: "\\begin{align*}", right: "\\end{align*}", display: true},
+            {left: "\\begin{alignat}", right: "\\end{alignat}", display: true},
+            {left: "\\begin{gather}", right: "\\end{gather}", display: true},
+            {left: "\\begin{CD}", right: "\\end{CD}", display: true},
+          ],
+          throwOnError : false
+        });
+    });
+</script>
+ 
+
+
+</head>
+
+<body class="" id="top">
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Jonathan Skjøtt">
+                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+                    height="18"
+                    width="18">Jonathan Skjøtt</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/papers/" title="Papers">
+                    <span>Papers</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Using spreadsheets as a level editor for games using hexagons
+    </h1>
+    <div class="post-meta"><span title='2025-01-31 00:00:00 +0000 UTC'>January 2025</span>&nbsp;&middot;&nbsp;Jonathan Skjøtt
+
+</div>
+  </header> <div class="toc">
+    <details  open>
+        <summary accesskey="c">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#1-it-is-possible-to-represent-hexagonal-maps-with-a-2d-grid">1. It is possible to represent hexagonal maps with a 2d grid</a></li>
+    <li><a href="#2-spreadsheets-store-data-in-a-grid-and-can-transmit-more-data-than-a-2d-texture">2. Spreadsheets store data in a grid and can transmit more data than a 2d texture</a></li>
+    <li><a href="#3-enough-data-can-be-stored-to-produce-a-scriptable-object-describing-a-level-made-of-hexagons">3. Enough data can be stored to produce a scriptable object describing a level made of hexagons</a></li>
+  </ul>
+</nav>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h2 id="introduction">Introduction<a hidden class="anchor" aria-hidden="true" href="#introduction">#</a></h2>
+<p>I have spent a lot of time of time thinking about how to make a simple and flexible level editor for the strategy game I am making. One aspect of this which I had a hard time getting my head around was how to design a level editor for a game where hexagons make up the level. That is untill I had, it is fair to say, a bit of a revelation:</p>
+<h2 id="1-it-is-possible-to-represent-hexagonal-maps-with-a-2d-grid">1. It is possible to represent hexagonal maps with a 2d grid<a hidden class="anchor" aria-hidden="true" href="#1-it-is-possible-to-represent-hexagonal-maps-with-a-2d-grid">#</a></h2>
+<p>Evgeniya Glazycheva has this great <a href="https://medium.com/@glazychevaeo/hexagon-level-generator-from-2d-texture-3c0ac9e3cc07" target="_blank">blog post</a> describing how they generated their hexagonal levels based on a 2d texture of a colored grid. Assuming a vertical hexagonal orientation it is pretty simple to take data from the 2d texture and use it to generate a level.</p>
+<h2 id="2-spreadsheets-store-data-in-a-grid-and-can-transmit-more-data-than-a-2d-texture">2. Spreadsheets store data in a grid and can transmit more data than a 2d texture<a hidden class="anchor" aria-hidden="true" href="#2-spreadsheets-store-data-in-a-grid-and-can-transmit-more-data-than-a-2d-texture">#</a></h2>
+<p>My only issue with using a 2d texture is that it allows for only very little data to be stored and transfered for each hexagon. The solution to this, which I am stoked about coming up with haha!, is to use a spreadsheet grid instead of a grid drawn on a texture.</p>
+<h2 id="3-enough-data-can-be-stored-to-produce-a-scriptable-object-describing-a-level-made-of-hexagons">3. Enough data can be stored to produce a scriptable object describing a level made of hexagons<a hidden class="anchor" aria-hidden="true" href="#3-enough-data-can-be-stored-to-produce-a-scriptable-object-describing-a-level-made-of-hexagons">#</a></h2>
+<p>Using an online spreadsheet like Google sheets and building scriptable object in Unity(<a href="https://medium.com/@xavidevsama/how-to-create-a-simple-backend-with-google-sheets-and-unity-the-easiest-solution-for-small-ef8a6de1bcd0" target="_blank">like shown here</a>) give team members access to a colaborative level editor and does not burden me as the programmer with the task of making a level editor in-house. Pew, nice.</p>
+<p><img loading="lazy" src="post1.png" alt=""  />
+</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/unity/">Unity</a></li>
+      <li><a href="http://localhost:1313/tags/spreadsheets/">Spreadsheets</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2025 <a href="http://localhost:1313/">Jonathan Skjøtt</a></span> ·     
+    <span>
+    Powered by 
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/pmichaillat/hugo-website/" rel="noopener" target="_blank">a modified version</a>
+         of 
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+</html>

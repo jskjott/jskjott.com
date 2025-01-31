@@ -1,18 +1,18 @@
 ---
-title: "Unusual Uses For Olive Oil" 
-date: 2013-01-15
-lastmod: 2024-07-12
-tags: ["philology","oleic science","history of oil","Mediterranean world"]
-author: ["Detlev Amadeus Unterholzer","Moritz-Maria von Igelfeld"]
-description: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. Published in the Journal of Oleic Science, 2013." 
-summary: "This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil." 
+title: "Spreadsheets as Notational Environment for Paper Weaving" 
+date: 2020-03-23
+lastmod: 2025-01-31
+tags: ["paper weaving","programming"]
+author: ["Jonathan Skjøtt"]
+description: "This work explores how spreadsheets can serve as the foundation for the creation of a hybrid design medium for paper weaving." 
+summary: "TThis work explores how spreadsheets can serve as the foundation for the creation of a hybrid design medium for paper weaving." 
 cover:
     image: "paper1.png"
-    alt: "Some Uses For Olive Oil"
+    alt: "A look at the tool made as part of the research"
     relative: false
 editPost:
-    URL: "https://github.com/pmichaillat/hugo-website"
-    Text: "Journal of Oleic Science"
+    URL: "https://github.com/jskjott/jskjott.com"
+    Text: "Companion Proceedings of the 4th International Conference on Art, Science, and Engineering of Programming"
 
 ---
 
@@ -21,18 +21,16 @@ editPost:
 ##### Download
 
 + [Paper](paper1.pdf)
-+ [Online appendix](appendix1.pdf)
-+ [Code and data](https://github.com/pmichaillat/feru)
 
 ---
 
 ##### Abstract
 
-This paper reviews unusual uses for olive oil throughout the Mediterranean world. It highlights in particular the challengs arising from excessive or unorthodox consumption of olive oil. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+This work explores how spreadsheets can serve as the foundation for the creation of a hybrid design medium for paper weaving. The case for using spreadsheets as a model for the development of environments for designing paper weaving patterns is made. Firstly, because both spreadsheets as well as the woven form of paper weaving designs have cells as their elementary substrate. Secondly, because it allows for exploration of the design space. And thirdly, as it enables use by end-users with varying levels of experience. An environment, VisiWeave, implementing the points mentioned is presented and explored.
 
 ---
 
-##### Figure 6: Some Uses For Olive Oil
+##### Figure 7: The VisiWeave interface with all panels open.
 
 ![](paper1.png)
 
@@ -40,23 +38,27 @@ This paper reviews unusual uses for olive oil throughout the Mediterranean world
 
 ##### Citation
 
-Unterholzer, Detlev A., and  Moritz-Maria von Igelfeld. 2013. "Unusual Uses For Olive Oil." *Journal of Oleic Science* 34 (1): 449–489. http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil.
+Jonathan Skjøtt. 2020. Spreadsheets as notational environment for paper weaving. In Companion Proceedings of the 4th International Conference on Art, Science, and Engineering of Programming (Programming '20). Association for Computing Machinery, New York, NY, USA, 158–162. https://doi.org/10.1145/3397537.3397545
 
 ```BibTeX
-@article{UI13,
-author = {Detlev A. Unterholzer and Moritz-Maria von Igelfeld},
-year = {2013},
-title ={Unusual Uses For Olive Oil},
-journal = {Journal of Oleic Science},
-volume = {34},
-number = {1},
-pages = {449--489},
-url = {http://www.alexandermccallsmith.com/book/unusual-uses-for-olive-oil}}
+@inproceedings{10.1145/3397537.3397545,
+author = {Skj\o{}tt, Jonathan},
+title = {Spreadsheets as notational environment for paper weaving},
+year = {2020},
+isbn = {9781450375078},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3397537.3397545},
+doi = {10.1145/3397537.3397545},
+abstract = {This work explores how spreadsheets can serve as the foundation for the creation of a hybrid design medium for paper weaving. The case for using spreadsheets as a model for the development of environments for designing paper weaving patterns is made. Firstly, because both spreadsheets as well as the woven form of paper weaving designs have cells as their elementary substrate. Secondly, because it allows for exploration of the design space. And thirdly, as it enables use by end-users with varying levels of experience. An environment, VisiWeave, implementing the points mentioned is presented and explored.},
+booktitle = {Companion Proceedings of the 4th International Conference on Art, Science, and Engineering of Programming},
+pages = {158–162},
+numpages = {5},
+keywords = {weaving, spreadsheets, end-user programming},
+location = {Porto, Portugal},
+series = {Programming '20}
+}
 ```
 
 ---
 
-##### Related material
-
-+ [Presentation slides](presentation1.pdf)
-+ [Summary of the paper](https://www.penguinrandomhouse.com/books/110403/unusual-uses-for-olive-oil-by-alexander-mccall-smith/)
