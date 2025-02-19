@@ -16,15 +16,18 @@ menu:
         - name: Papers
           url: papers/
           weight: 1
+        - name: Learning
+          url: learning/
+          weight: 3
         - name: Blog
           url: blog/
-          weight: 3
+          weight: 4
         - name: Tags
           url: tags/
-          weight: 4
+          weight: 5
         - name: Archive
           url: archive/
-          weight: 5
+          weight: 6
 params:
     description: "Hi! I am a PhD student in Game Design at Aalborg university in Copenhagen. I am currently setting up this page."
     author: Jonathan Skjøtt
@@ -41,7 +44,7 @@ params:
     ShowBreadCrumbs: false
     ShowCodeCopyButtons: true
     ShowAllPagesInArchive: false
-    MainSections: ["projects","papers","blog"]
+    MainSections: ["projects","papers","learning","blog"]
     ShowToc: false
     disableScrollToTop: true
     TocOpen: true
@@ -61,6 +64,8 @@ params:
               url: papers/
             - name: Projects
               url: projects/
+            - name: Learning
+              url: learning/  
             - name: Blog
               url: blog/
             - name: Tags

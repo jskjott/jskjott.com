@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>Using spreadsheets as a level editor for games using hexagons | Jonathan Skjøtt</title>
 <meta name="keywords" content="Unity, Spreadsheets">
 <meta name="description" content="A little blog post about using spreadsheets for level design in games using hexagons">
 <meta name="author" content="Jonathan Skjøtt">
-<link rel="canonical" href="http://localhost:1313/blog/spreadsheets_as_a_level_editor/">
+<link rel="canonical" href="https://jskjott.com/blog/spreadsheets_as_a_level_editor/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.51c16199ecf561b4e5a6f75a22332161ffef9c55107dadee1685c1477f849ec9.css" integrity="sha256-UcFhmez1YbTlpvdaIjMhYf/vnFUQfa3uFoXBR3&#43;Ensk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="icon" href="https://jskjott.com/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://jskjott.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://jskjott.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://jskjott.com/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/spreadsheets_as_a_level_editor/">
+<link rel="alternate" hreflang="en" href="https://jskjott.com/blog/spreadsheets_as_a_level_editor/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="Using spreadsheets as a level editor for games using hexagons" />
 <meta property="og:description" content="A little blog post about using spreadsheets for level design in games using hexagons" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/blog/spreadsheets_as_a_level_editor/" />
-<meta property="og:image" content="http://localhost:1313/post1.png" /><meta property="article:section" content="blog" />
+<meta property="og:url" content="https://jskjott.com/blog/spreadsheets_as_a_level_editor/" />
+<meta property="og:image" content="https://jskjott.com/post1.png" /><meta property="article:section" content="blog" />
 <meta property="article:published_time" content="2025-01-31T00:00:00+00:00" />
 <meta property="article:modified_time" content="2025-01-31T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/post1.png" />
+<meta name="twitter:image" content="https://jskjott.com/post1.png" />
 <meta name="twitter:title" content="Using spreadsheets as a level editor for games using hexagons"/>
 <meta name="twitter:description" content="A little blog post about using spreadsheets for level design in games using hexagons"/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blog",
-      "item": "http://localhost:1313/blog/"
+      "item": "https://jskjott.com/blog/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "Using spreadsheets as a level editor for games using hexagons",
-      "item": "http://localhost:1313/blog/spreadsheets_as_a_level_editor/"
+      "item": "https://jskjott.com/blog/spreadsheets_as_a_level_editor/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": "Introduction I have spent a lot of time of time thinking about how to make a simple and flexible level editor for the strategy game I am making. One aspect of this which I had a hard time getting my head around was how to design a level editor for a game where hexagons make up the level. That is untill I had, it is fair to say, a bit of a revelation:\n1. It is possible to represent hexagonal maps with a 2d grid Evgeniya Glazycheva has this great blog post describing how they generated their hexagonal levels based on a 2d texture of a colored grid. Assuming a vertical hexagonal orientation it is pretty simple to take data from the 2d texture and use it to generate a level.\n2. Spreadsheets store data in a grid and can transmit more data than a 2d texture My only issue with using a 2d texture is that it allows for only very little data to be stored and transfered for each hexagon. The solution to this, which I am stoked about coming up with haha!, is to use a spreadsheet grid instead of a grid drawn on a texture.\n3. Enough data can be stored to produce a scriptable object describing a level made of hexagons Using an online spreadsheet like Google sheets and building scriptable object in Unity(like shown here) give team members access to a colaborative level editor and does not burden me as the programmer with the task of making a level editor in-house. Pew, nice.\n",
   "wordCount" : "259",
   "inLanguage": "en",
-  "image":"http://localhost:1313/post1.png","datePublished": "2025-01-31T00:00:00Z",
+  "image":"https://jskjott.com/post1.png","datePublished": "2025-01-31T00:00:00Z",
   "dateModified": "2025-01-31T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -81,19 +81,28 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/blog/spreadsheets_as_a_level_editor/"
+    "@id": "https://jskjott.com/blog/spreadsheets_as_a_level_editor/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Jonathan Skjøtt",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/favicon.ico"
+      "url": "https://jskjott.com/favicon.ico"
     }
   }
 }
 </script>
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0E5PL654PM"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0E5PL654PM');
+</script>
 
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
@@ -129,8 +138,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Jonathan Skjøtt">
-                <img src="http://localhost:1313/favicon.ico" alt="" aria-label="logo"
+            <a href="https://jskjott.com/" accesskey="h" title="Jonathan Skjøtt">
+                <img src="https://jskjott.com/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Jonathan Skjøtt</a>
             <div class="logo-switches">
@@ -138,27 +147,32 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/papers/" title="Papers">
+                <a href="https://jskjott.com/papers/" title="Papers">
                     <span>Papers</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
+                <a href="https://jskjott.com/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/blog/" title="Blog">
+                <a href="https://jskjott.com/learning/" title="Learning">
+                    <span>Learning</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://jskjott.com/blog/" title="Blog">
                     <span>Blog</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/tags/" title="Tags">
+                <a href="https://jskjott.com/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/archive/" title="Archive">
+                <a href="https://jskjott.com/archive/" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
@@ -211,15 +225,15 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/unity/">Unity</a></li>
-      <li><a href="http://localhost:1313/tags/spreadsheets/">Spreadsheets</a></li>
+      <li><a href="https://jskjott.com/tags/unity/">Unity</a></li>
+      <li><a href="https://jskjott.com/tags/spreadsheets/">Spreadsheets</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2025 <a href="http://localhost:1313/">Jonathan Skjøtt</a></span> ·     
+    <span>&copy; 2025 <a href="https://jskjott.com/">Jonathan Skjøtt</a></span> ·     
     <span>
     Powered by 
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
