@@ -42,6 +42,15 @@ The letters stand for:
 - **C**ould Have / Nice to have
 - **W**on’t Have this time
 
+## Lightweight social rules for learning spaces
+
+The Recurse Center has some [nice social rules](https://www.recurse.com/manual#sub-sec-social-rules) which adress some of the behaviour which can be destructive to a good learning(or projecting) environment.
+
+- **No feigning surprise** "You shouldn't act surprised when people say they don't know something."
+- **No well-actuallys** "A well-actually happens when someone says something that's almost - but not entirely - correct, and you say, "well, actually…" and then give a minor correction."
+- **No back-seat driving** "If you overhear people working through a problem, you shouldn't give advice unless you’re actively participating in the conversation."
+- **No subtle -isms** "Our last social rule bans subtle racism, sexism, homophobia, transphobia, and other kinds of bias."
+
 ## Decision memos
 
 [Decision memos](https://shorensteincenter.org/wp-content/uploads/2012/07/MEMO-WRITING-HO-ALL-Danziger.pdf) are short documents describing a problem, a solution, and how the solution was arrived at.
