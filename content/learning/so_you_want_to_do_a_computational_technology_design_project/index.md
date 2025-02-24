@@ -22,25 +22,25 @@ Here is a collection of spells!
 
 ![a screenshot of a visual debugging screen from unity, lots of colorored rectangles and some hexagons.](crazy_visual_debugging.png)
 
-## Five W and one H
+## Five Ws and one H
 
-[Five W and one H](https://www.pppdesign.net/blog.asp?bkey=154&Akey=) is a method for establishing context.
+Five ws and one h is a method for establishing context.
 
-- Who
-- What
-- When
-- Why
-- How
+- **Who** is the project team? Who are we working with? Who is involved? 
+- **What** is the core challenge? What is the goal? What knowledge are we using?
+- **When** is the deadline? When do we do different tasks? 
+- **Why** this project? Why this project now?
+- **How** are we executing this project? How are we making decisions? How are we evaluating this project?
 
 ## MoSCoW
 
 [MoSCoW](https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html) is a prioritisation technique borrowed from Agile. For scoping priorities. 
 The letters stand for:
 
-- **M**ust Have
-- **S**hould Have
-- **C**ould Have / Nice to have
-- **W**on’t Have this time
+- **M**ust Have — vital, if it is not there the project should not be done
+- **S**hould Have — important but not vital
+- **C**ould Have / Nice to have — desirable but less important
+- **W**on’t Have this time — agreed upon things that project won't have
 
 ## Lightweight social rules for learning spaces
 
