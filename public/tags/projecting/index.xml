@@ -4,10 +4,17 @@
     <title>Projecting on Jonathan Skjøtt</title>
     <link>http://localhost:1313/tags/projecting/</link>
     <description>Recent content in Projecting on Jonathan Skjøtt</description>
-    <generator>Hugo -- 0.144.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/projecting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lenses</title>
+      <link>http://localhost:1313/learning/lenses/</link>
+      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/learning/lenses/</guid>
+      <description>A page with a collection of pdfs with different lenses on a variety of different phenomena. Mostly related to digital design.</description>
+    </item>
     <item>
       <title>So you want to do a computational technology design project</title>
       <link>http://localhost:1313/learning/so_you_want_to_do_a_computational_technology_design_project/</link>
